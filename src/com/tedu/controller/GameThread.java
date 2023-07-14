@@ -309,6 +309,37 @@ public class GameThread extends Thread{
 				}
 				
 				
+				else if(distanceY < 43) {
+					if (distanceX <= 50*(obj.getAttack()+2)) {
+						if (play.getLife() >0) {
+							if (play.getLife()>1 && obj.getCrash()==false) {
+								
+							}
+							if (obj.getCrash()==false) {
+								play.setLife(live-1);
+								if (play.getLife()<=0) {
+									play.setLive(false);
+									gameOver();
+//									GameJFrame gj = new GameJFrame();
+//									
+//									OverJPanel oj = new OverJPanel();		
+//									gj.setjPanel(oj);
+//
+//									
+//									gj.start();
+//									play.isLive();
+								}
+								obj.setCrash(true);
+							}
+							
+							continue;
+						}
+						
+					}
+				}
+				
+				
+				
 			}
 		}
 	}

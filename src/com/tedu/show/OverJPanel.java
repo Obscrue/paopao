@@ -48,11 +48,11 @@ import javax.swing.JPanel;
 	  restart.addActionListener(new ActionListener() {
 	   @Override
 	   public void actionPerformed(ActionEvent arg0) {
-	    GameJFrame gj = new GameJFrame();
+//	    GameJFrame gj = new GameJFrame();
 	    /*实例化面板，注入到jFrame中 */
 	  Startgame bj = new Startgame();
 
-	    gj.start();
+//	    gj.start();
 	    bj.start();
 	    
 	   }

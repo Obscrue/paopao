@@ -48,7 +48,7 @@ public class GameJFrame extends JFrame{
 	public static int GameY = 638;//650
 	
 	
-	public static GameMainJPanel gamePanel;
+//	public static GameMainJPanel gamePanel;
 
 	
 	public static int contentWidth;

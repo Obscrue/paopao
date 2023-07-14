@@ -120,14 +120,14 @@ public class Startgame extends JFrame implements ActionListener {
             
             // 创建游戏窗口实例
             GameJFrame gj = new GameJFrame();
-            
+
             // 创建游戏面板实例
             GameMainJPanel jp = new GameMainJPanel();
             
             // 实例化监听
             GameListener listener = new GameListener();
             GameListener2 listener2 = new GameListener2();
-            // 实例化主线程
+             //实例化主线程
             GameThread th = new GameThread();
             
             // 注入
@@ -141,6 +141,7 @@ public class Startgame extends JFrame implements ActionListener {
             
             // 启动游戏
             gj.start();
+            
         }else if (jb == jb2) {
         	if (jl.isVisible()) {
                 jl.setVisible(false);
